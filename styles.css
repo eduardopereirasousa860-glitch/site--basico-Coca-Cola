@@ -1,0 +1,293 @@
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #222;
+}
+
+header {
+  background-color: #e61b23;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+nav {
+  background-color: #b5121b;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.sobre {
+  text-align: center;
+}
+
+.sobre img {
+  width: 300px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.historia {
+  background-color: #f8f8f8;
+  border-top: 4px solid #000000;
+}
+
+.produtos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.produto {
+  background-color: #fff;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  transition: 0.3s;
+}
+
+.produto:hover {
+  transform: scale(1.05);
+  border-color: #e61b23;
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #e61b23;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 0;
+}
+
+
+h1 {
+    color: #444;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #555;
+   
+    padding-left: 10px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+
+.secao-cacau-show {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.secao-coca-cola {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+  
+ 
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+
+header {
+  background-color: #e41c23; 
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000000;
+}
+
+
+header {
+  background-color: #e41c23; 
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #111;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+  color: #e41c23;
+  transform: scale(1.1);
+}
+
+
+section.sobre {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #ffffff;
+}
+
+section.sobre img {
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section.sobre img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+}
+
+
+footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #e41c23;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.8em;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    margin: 10px 0;
+  }
+
+  section.sobre img {
+    width: 80%;
+  }
+}
+
+
+
+
+
